@@ -1,0 +1,91 @@
+﻿NCP_cat;NCP;Rewilding_cat;rewilding;overall pos;counteracting_posneg;counteract_negpos;sum_counteracting;overall neg
+regulating ;pollination;eco_integrity;natural_disturbance;3;0;0;0;0
+regulating ;air_water_soil;eco_integrity;natural_disturbance;15;15;0;15;16
+regulating ;climate ;eco_integrity;natural_disturbance;10;12;0;12;14
+regulating ;hazards ;eco_integrity;natural_disturbance;7;11;8;19;10
+regulating ;invasives;eco_integrity;natural_disturbance;0;0;0;0;0
+material ;food_provision;eco_integrity;natural_disturbance;1;22;14;36;6
+material ;materials;eco_integrity;natural_disturbance;0;22;9;31;2
+material ;water;eco_integrity;natural_disturbance;12;14;1;15;16
+non_material_cultural;non-material;eco_integrity;natural_disturbance;9;18;5;23;12
+good_life_quality;good_quality;eco_integrity;natural_disturbance;8;21;4;25;6
+regulating ;pollination;eco_integrity;connectivity;6;0;0;0;2
+regulating ;air_water_soil;eco_integrity;connectivity;42;10;0;10;28
+regulating ;climate ;eco_integrity;connectivity;18;9;0;9;32
+regulating ;hazards;eco_integrity;connectivity;14;7;8;15;10
+regulating ;invasives;eco_integrity;connectivity;2;2;0;2;2
+material ;food_provision;eco_integrity;connectivity;19;25;22;47;13
+material ;materials;eco_integrity;connectivity;11;22;16;38;6
+material ;water;eco_integrity;connectivity;33;10;3;13;21
+non_material_cultural;non-material;eco_integrity;connectivity;36;21;8;29;16
+good_life_quality;good_quality;eco_integrity;connectivity;36;25;7;32;9
+regulating ;pollination;eco_integrity;veg_dynamics;5;0;0;0;2
+regulating ;air_water_soil;eco_integrity;veg_dynamics;40;13;0;13;29
+regulating ;climate ;eco_integrity;veg_dynamics;19;10;0;10;29
+regulating ;hazards;eco_integrity;veg_dynamics;9;8;9;17;9
+regulating ;invasives;eco_integrity;veg_dynamics;2;0;0;0;2
+material ;food_provision;eco_integrity;veg_dynamics;14;27;26;53;11
+material ;materials;eco_integrity;veg_dynamics;9;25;18;43;6
+material ;water;eco_integrity;veg_dynamics;28;10;2;12;21
+non_material_cultural;non-material;eco_integrity;veg_dynamics;34;26;9;35;14
+good_life_quality;good_quality;eco_integrity;veg_dynamics;29;27;8;35;8
+regulating ;pollination;eco_integrity;invasive_sp;2;0;0;0;0
+regulating ;air_water_soil;eco_integrity;invasive_sp;7;0;0;0;6
+regulating ;climate ;eco_integrity;invasive_sp;3;0;0;0;2
+regulating ;hazards;eco_integrity;invasive_sp;1;0;0;0;2
+regulating ;invasives;eco_integrity;invasive_sp;4;0;0;0;0
+material ;food_provision;eco_integrity;invasive_sp;3;4;3;7;1
+material ;materials;eco_integrity;invasive_sp;1;1;0;1;0
+material ;water;eco_integrity;invasive_sp;5;0;0;0;5
+non_material_cultural;non-material;eco_integrity;invasive_sp;6;0;0;0;1
+good_life_quality;good_quality;eco_integrity;invasive_sp;5;0;0;0;0
+regulating ;pollination;eco_integrity;large_bodied_sp;4;0;0;0;0
+regulating ;air_water_soil;eco_integrity;large_bodied_sp;8;3;0;3;12
+regulating ;climate ;eco_integrity;large_bodied_sp;7;2;0;2;2
+regulating ;hazards;eco_integrity;large_bodied_sp;1;2;7;9;3
+regulating ;invasives;eco_integrity;large_bodied_sp;1;1;0;1;0
+material ;food_provision;eco_integrity;large_bodied_sp;4;8;11;19;4
+material ;materials;eco_integrity;large_bodied_sp;2;6;4;10;0
+material ;water;eco_integrity;large_bodied_sp;7;3;1;4;8
+non_material_cultural;non-material;eco_integrity;large_bodied_sp;8;5;4;9;3
+good_life_quality;good_quality;eco_integrity;large_bodied_sp;8;6;3;9;1
+regulating ;pollination;reduction_outputs;hunting_poaching;6;0;0;0;2
+regulating ;air_water_soil;reduction_outputs;hunting_poaching;27;17;0;17;27
+regulating ;climate ;reduction_outputs;hunting_poaching;20;10;0;10;14
+regulating ;hazards;reduction_outputs;hunting_poaching;4;9;9;18;10
+regulating ;invasives;reduction_outputs;hunting_poaching;3;0;0;0;2
+material ;food_provision;reduction_outputs;hunting_poaching;7;37;21;58;12
+material ;materials;reduction_outputs;hunting_poaching;6;27;10;37;5
+material ;water;reduction_outputs;hunting_poaching;28;22;3;25;38
+non_material_cultural;non-material;reduction_outputs;hunting_poaching;20;32;7;39;14
+good_life_quality;good_quality;reduction_outputs;hunting_poaching;19;33;6;39;10
+regulating ;pollination;reduction_outputs;farming_livestock;6;0;0;0;2
+regulating ;air_water_soil;reduction_outputs;farming_livestock;43;24;2;26;31
+regulating ;climate ;reduction_outputs;farming_livestock;34;15;2;17;18
+regulating ;hazards;reduction_outputs;farming_livestock;16;9;11;20;10
+regulating ;invasives;reduction_outputs;farming_livestock;4;0;0;0;2
+material ;food_provision;reduction_outputs;farming_livestock;20;54;30;84;11
+material ;materials;reduction_outputs;farming_livestock;7;34;17;51;8
+material ;water;reduction_outputs;farming_livestock;34;16;4;20;28
+non_material_cultural;non-material;reduction_outputs;farming_livestock;40;36;8;44;19
+good_life_quality;good_quality;reduction_outputs;farming_livestock;40;41;7;48;14
+regulating ;pollination;reduction_outputs;forest_harvesting;4;0;0;0;0
+regulating ;air_water_soil;reduction_outputs;forest_harvesting;42;15;2;17;32
+regulating ;climate ;reduction_outputs;forest_harvesting;35;13;1;14;21
+regulating ;hazards;reduction_outputs;forest_harvesting;16;6;10;16;12
+regulating ;invasives;reduction_outputs;forest_harvesting;2;0;0;0;0
+material ;food_provision;reduction_outputs;forest_harvesting;27;35;20;55;12
+material ;materials;reduction_outputs;forest_harvesting;16;31;18;49;2
+material ;water;reduction_outputs;forest_harvesting;32;11;4;15;28
+non_material_cultural;non-material;reduction_outputs;forest_harvesting;41;30;10;40;16
+good_life_quality;good_quality;reduction_outputs;forest_harvesting;39;28;9;37;13
+regulating ;pollination;reduction_outputs;mining;0;0;0;0;0
+regulating ;air_water_soil;reduction_outputs;mining;7;2;1;3;7
+regulating ;climate ;reduction_outputs;mining;8;3;1;4;5
+regulating ;hazards;reduction_outputs;mining;4;3;3;6;0
+regulating ;invasives;reduction_outputs;mining;0;0;0;0;0
+material ;food_provision;reduction_outputs;mining;5;5;4;9;4
+material ;materials;reduction_outputs;mining;1;9;8;17;0
+material ;water;reduction_outputs;mining;8;0;1;1;6
+non_material_cultural;non-material;reduction_outputs;mining;8;2;1;3;7
+good_life_quality;good_quality;reduction_outputs;mining;8;5;1;6;3

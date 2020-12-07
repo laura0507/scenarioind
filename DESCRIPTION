@@ -1,0 +1,21 @@
+Package: scenarioind
+Title: Scenario indicator visualization tool
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Laura",
+           family = "Quintero",
+           role = c("aut", "cre"),
+           email = "l.quinterou@idiv.de",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Package used to get basic information of participatory scenarios, such as, visualisation of relationships of diferent indicators used in participatory scenarios
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    ggplot2,
+    reshape2,
+    dplyr
+Depends: 
+    R (>= 2.10)
