@@ -1,6 +1,6 @@
 Package: scenarioind
 Title: Tool for building bubble charts and other graphical outputs
-Version: 0.0.0.9000
+Version: 1.1.1.1000
 Authors@R: 
     person(given = "Laura",
            family = "Quintero",
