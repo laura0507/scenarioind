@@ -13,8 +13,17 @@ count_ind(x, t)
 when defining variable write t = "name_variable"}
 }
 \value{
-
+plot
 }
 \description{
-Visualization of group of indicators in scenarios
+basic histogram to visualize how many times an indicator was found in the database
+}
+\examples{
+ 
+
+data("ind_scenarios")
+count_ind(x=ind_scenarios, t="NCP")
+
+
+
 }

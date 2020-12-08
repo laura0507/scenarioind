@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "l.quinterou@idiv.de",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Package used to get basic information of participatory scenarios, such as, visualisation of relationships of diferent indicators used in participatory scenarios
+Description: Package used to visualize relationships between numeric and categorical information found in databases.This Package is useful when working with qualitative and quantitative information gathered from participaty scenarios or systematic reviews from socio-ecological studies. The functions found in the package can be used to visualize co-ocurrence of two different variables. Nevertheless the data has to be arraged in a specific way, please look example dataset.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
@@ -16,6 +16,9 @@ RoxygenNote: 7.1.1
 Imports: 
     ggplot2,
     reshape2,
-    dplyr
+    dplyr,
+    checkmate
 Depends: 
     R (>= 2.10)
+Suggests: 
+    testthat

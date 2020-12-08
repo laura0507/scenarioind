@@ -18,8 +18,17 @@ This value should be defined as.factor when plotting}
 \item{v3}{It is a numerical value that will be used to fill in the size and the color of the bubbles in the chart}
 }
 \value{
-
+plot
 }
 \description{
-Visualisation of co-ocurrence of indicators in bubble chart
+co ocurrence chart of two variables
+}
+\examples{
+ 
+
+data("ind_scenarios")
+bubble_plot(database = ind_scenarios,v1= "NCP", v2= "rewilding", v3= "sum_counteracting")
+
+bubble_plot(database = ind_scenarios,v1= "rewilding", v2= "NCP", v3= "sum_counteracting")
+
 }
