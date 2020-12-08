@@ -31,10 +31,12 @@ count_ind<- function(x,t){
   db <- x %>%
     group_by(.data[[t]]) %>%
     count()
+  return(db)
   
-  #plot barchsrt
-  ggplot(data= db) + geom_bar(aes(x= .data[[t]], y=n), stat="identity")+
+  #plot barchart
+  p <- ggplot(data= db) + geom_bar(aes(x= .data[[t]], y=n), stat="identity")+
     theme_bw()+
     theme(axis.text = element_text(angle = 90))
-  return(db)
+  
+  return(p)
 }

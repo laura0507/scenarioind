@@ -1,5 +1,5 @@
 Package: scenarioind
-Title: Scenario indicator visualization tool
+Title: Tool for building bubble charts and other graphical outputs
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Laura",
@@ -17,8 +17,7 @@ Imports:
     ggplot2,
     reshape2,
     dplyr,
-    checkmate
+    checkmate,
+    testthat
 Depends: 
     R (>= 2.10)
-Suggests: 
-    testthat
