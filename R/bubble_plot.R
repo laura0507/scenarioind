@@ -1,32 +1,24 @@
-library(usethis)
-library(devtools)
-library(dplyr)
-library(ggplot2)
-
-db1 <- read.csv2("data-raw/scenarios_db.csv")
-
-count_ind<- function(x,t){
-  
-  db <- x %>%
-    group_by(.data[[t]]) %>%
-    count()
-  ggplot(data= db) + geom_bar(aes(x= .data[[t]], y=n), stat="identity")+
-    theme_bw()+
-    theme(axis.text = element_text(angle = 90))
-
-  }
-
-count_ind(x=db1, t="NCP")
-
-
-alldb<- read.csv2("data-raw/scenarios_db.csv")
-
-alldb$NCP_cat <- factor(alldb$NCP_cat,levels=unique(alldb$NCP_cat))
-alldb$NCP <- factor(alldb$NCP,levels=unique(alldb$NCP))
-alldb$Rewilding_cat <- factor(alldb$Rewilding_cat,levels=unique(alldb$Rewilding_cat))
-alldb$rewilding <- factor(alldb$rewilding,levels=unique(alldb$rewilding))
-
-
+#' Visualisation of co-ocurrence of indicators in bubble chart
+#'
+#' @param database corresponds to the database where the information is stored
+#' @param v1 corresponds to a indicator that will be plotted against the second variable. 
+#' This value should be defined as.factor when plotting
+#' @param v2 corresponds to the second indicator that will be plotted.
+#' This value should be defined as.factor when plotting 
+#' @param v3 It is a numerical value that will be used to fill in the size and the color of the bubbles in the chart
+#' 
+#' 
+#' 
+#' @return 
+#' @export
+#'
+#' @example 
+#' 
+#' data("ind_scenarios")
+#' bubble_plot(database = ind_scenarios,v1= "NCP", v2= "rewilding", v3= "sum_counteracting")
+#' 
+#' @importFrom dplyr count group_by
+#' 
 
 bubble_plot <- function(database,v1, v2, v3 )  {
   RGB <- c("#d73027", "darkgrey","#4575b4")
@@ -55,7 +47,3 @@ bubble_plot <- function(database,v1, v2, v3 )  {
           legend.position = "right") 
   return(c3)
 }
-
-
-bubble_plot(database = alldb,v1= "NCP", v2= "rewilding", v3= "sum_counteracting")
-
